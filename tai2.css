@@ -1,13 +1,13 @@
-.tourgs {
+#tai .tourgs {
     display: flex;
     margin: 0;
 }
-.bigbox {
+#tai .bigbox {
     display: flex;
     justify-content: center;
     margin-right: 100px;
 }
-.words {
+#tai .words {
     justify-content: center;
     margin: 0;
     width: 50%;
@@ -15,7 +15,7 @@
     padding-top: 100px;
 }
 
-.gs {
+#tai .gs {
     cursor: pointer;
     background-color: #06D6A0; /* Green */
     border-radius: 100px;
@@ -26,7 +26,7 @@
     font-family: DM Sans, sans-serif;
 }
 
-.tour {
+#tai .tour {
     cursor: pointer;
     margin-left: 50px;
     padding:20px;
@@ -36,11 +36,11 @@
     font-family: DM Sans, sans-serif;
 }
 
-h1 {
+#tai h1 {
     font-size: 40px;
 }
 
-.video {
+#tai .video {
     width:620px;
     height:500px;
     margin: 0px;
@@ -48,28 +48,28 @@ h1 {
     justify-content: center;
 }
 
-.super {
+#tai .super {
     width: 100%;
     height: 100%;
     padding:120px;
     background-image: linear-gradient(#202540, #252c5d 42%, #3a3dab);
 }
 
-.Y{
+#tai .Y {
     padding-right: 25px;
     font-size: 3.5rem;
     font-weight: 700;
     color: white;
     font-family: DM Sans, sans-serif;
 }
-.VHQ{
+#tai .VHQ{
     font-size: 3.5rem;
     font-weight: 700;
     color:#CAD8FF;
     font-family: DM Sans, sans-serif;
 }
 
-.gather{
+#tai .gather{
     color: white;
     font-size: 1.7rem;
     font-weight: 500;
@@ -77,7 +77,7 @@ h1 {
     max-width: 625px;
 }
 
-.tach{
+#tai .tach{
     display: flex;
 }
 
@@ -90,6 +90,6 @@ box-sizing: border-box;
   font-weight: 1;
   font-style: normal;
 }
-.mp4 {
+#tai .mp4 {
     padding-right: 120px;
 }
