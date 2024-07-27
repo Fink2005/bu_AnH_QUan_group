@@ -9,28 +9,36 @@
 }
 #tai .words {
     justify-content: center;
+    display:flex;
+    flex-direction: column;
     margin: 0;
-    width: 50%;
+    width: 100%;
     padding: 10px;
-    padding-top: 100px;
+    padding-top: 0px;
+    padding-left:10%;
 }
 
 #tai .gs {
     cursor: pointer;
     background-color: #06D6A0; /* Green */
-    border-radius: 100px;
-    padding: 20px;
-    font-size: 1rem;
+    border-radius: 10px;
+    padding: 17px;
+    padding-left: 35px;
+    padding-right: 35px ;
+    font-size: 1.05rem;
     font-weight: 700;
     line-height: 1.25;
     font-family: DM Sans, sans-serif;
+    transition: 0.35;
 }
-
+#tai .gs:hover {
+    background-color:  #66eeca;   
+}
 #tai .tour {
     cursor: pointer;
-    margin-left: 50px;
+    margin-left: 25px;
     padding:20px;
-    font-size: 1rem;
+    font-size: 1.05rem;
     font-weight: 700;
     color: white;
     font-family: DM Sans, sans-serif;
@@ -40,7 +48,7 @@
     font-size: 40px;
 }
 
-#tai .video {
+#tai #videoloop {
     width:620px;
     height:500px;
     margin: 0px;
@@ -91,5 +99,5 @@ box-sizing: border-box;
   font-style: normal;
 }
 #tai .mp4 {
-    padding-right: 120px;
+    padding-right: 12%;
 }
