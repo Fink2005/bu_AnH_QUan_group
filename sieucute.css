@@ -26,7 +26,7 @@
     justify-content: space-between;
     width: 70%;
 }
-img {
+.img{
     width: 50%;
     display: flex;
     justify-content: space-between;
@@ -36,7 +36,7 @@ img {
     justify-content:center;
     margin-bottom: 40px;
 }    
-#text{
+.text{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,12 +44,11 @@ img {
     padding: 20px;
     width: 40%;
 }
-h1{
+.head{
     display: flex;
     justify-content: center;
     font-family: DM Sans, sans-serif;
     color:#282d4e;
     font-size: 32px;
     margin-bottom: 40px;
-    font-weight: bold;
 }
